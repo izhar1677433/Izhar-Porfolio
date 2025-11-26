@@ -27,7 +27,7 @@ function Navbar() {
 
   const content = (
     <>
-      <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-white dark:bg-slate-900 transition ">
+      <div className="lg:hidden block absolute top-16 shadow-lg w-full left-0 right-0 bg-white dark:bg-slate-900 transition ">
         <ul className="text-center text-xl p-20">
           {navItems.map((item, index) => (
             <Link key={index} to={item} spy={true} smooth={true}>
@@ -49,12 +49,12 @@ function Navbar() {
                 <img
                   src={light}
                   alt="light"
-                  className="absolute w-4 z-10 m-[4px] text-white "
+                  className="absolute w-4 z-10 m-[4px]  "
                 />
                 <img
                   src={dark}
                   alt="dark"
-                  className="absolute w-4 z-10 m-[4px] text-white right-0 "
+                  className="absolute w-4 z-10 m-[4px]  right-0 "
                 />
               </div>
             </label>
@@ -66,10 +66,10 @@ function Navbar() {
 
   return (
     <>
-      <nav className="sticky top-0 bg-white text-black dark:bg-slate-900 dark:text-white">
-        <div className="h-10vh flex justify-between z-50 lg:py-5 pl-20 pr-14 py-4 border-b border-slate-800">
+      <nav className="sticky top-0 shadow-2xl bg-white text-black dark:bg-slate-900 dark:text-white">
+        <div className="h-10vh flex justify-between z-50 lg:py-5 pl-10 pr-14 py-10  border-slate-800">
           <div className="flex items-center flex-1">
-            <span className="text-3xl font-bold">
+            <span className="text-2xl font-bold">
               <Link to="Home" spy={true} smooth={true}>
                 IZHAR UL HAQ
               </Link>

@@ -26,13 +26,13 @@ function Footer() {
   return (
     <footer className="md:flex md:px-10 lg:flex bg-white dark:bg-slate-800 text-black dark:text-white lg:px-48 px-4 py-5 justify-between border-t border-slate-800">
       <div>
-        <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2">
+        <h2 className="text-[22px] font-semibold text-500 py-2">
           Copyright © 2024. All rights are reserved
         </h2>
       </div>
       <div className="md:flex lg:flex gap-10 ">
         <div>
-          <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2  uppercase">
+          <h2 className="text-[22px] font-semibold text-500 py-2  uppercase">
             Contact
           </h2>
           <a
@@ -46,7 +46,7 @@ function Footer() {
           </p>
         </div>
         <div>
-          <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
+          <h2 className="text-[22px] font-semibold text-500 py-2 uppercase">
             Follow Me
           </h2>
           <div className="flex space-x-4">

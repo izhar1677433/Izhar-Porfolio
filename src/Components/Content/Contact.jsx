@@ -15,7 +15,7 @@ function Contact() {
     >
       <h1
         data-aos="fade-right"
-        className="text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500"
+        className="text-[52px] font-semibold mb-20 leading-normal uppercase text-500"
       >
         Contact Me
       </h1>
@@ -33,32 +33,32 @@ function Contact() {
           <input
             type="text"
             name="name"
-            className="w-full my-3 rounded-lg p-4 border-2  border-white text-xl bg-white dark:bg-slate-800"
+            className="w-full my-3 rounded-lg p-4 border-2   text-xl bg-white dark:bg-slate-800"
             placeholder="Enter Your Full Name"
             required
           />
           <input
             type="email"
             name="email"
-            className="w-full my-3 rounded-lg p-4 border-2  border-white text-xl bg-white dark:bg-slate-800"
+            className="w-full my-3 rounded-lg p-4 border-2  text-xl bg-white dark:bg-slate-800"
             placeholder="Enter Your Email"
             required
           />
         </div>
         <textarea
           name="message"
-          className="w-full my-3 rounded-lg bg-white dark:bg-slate-800 p-4 border-2  border-white text-xl"
+          className="w-full my-3 rounded-lg bg-white dark:bg-slate-800 p-4 border-2  text-xl"
           placeholder="Enter Your Message..."
           cols="20"
           rows="10"
           required
         ></textarea>
-        <button
-          className="nano-button my-3 shadow-xl hover:shadow-blue-800/50 text-black dark:text-white  border-2 hover:bg-blue-600  rounded-lg py-4 px-8 uppercase relative overflow-hidden border-white"
-          type="submit"
-        >
-          Submit
-        </button>
+       <button
+  className="bg-blue-500 text-white my-3 shadow-xl hover:shadow-blue-800/50 border-2 hover:bg-blue-600 rounded-lg py-4 px-8 uppercase relative overflow-hidden border-white"
+  type="submit"
+>
+  Submit
+</button>
       </form>
     </div>
   );

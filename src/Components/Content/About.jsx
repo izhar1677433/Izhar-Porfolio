@@ -49,7 +49,7 @@ function About() {
         </p>
         <div className="flex mt-8 gap-2 space-x-2 items-center justify-center">
           <a href={Resume} target="_blank">
-            <div className="nano-button shadow-xl hover:shadow-fuchsia-800/50 border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase overflow-hidden">
+            <div className="nano-button shadow-xl hover:shadow-fuchsia-800/50 border-2 hover:bg-fuchsia-800 hover:text-white border-fuchsia-800 rounded-lg py-4 px-8 uppercase overflow-hidden">
               Resume
             </div>
           </a>

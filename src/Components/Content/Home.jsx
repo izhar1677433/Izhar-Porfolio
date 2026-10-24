@@ -45,7 +45,8 @@ function Home() {
           <span className="text-fuchsi-500">My Portfolio Website</span>
         </h1>
         <p data-aos="fade-left">
-         Hi, I'm a passionate Full Stack Web Developer based in Pakistan. With a strong foundation in modern web technologies and hands-on experience in building responsive, dynamic, and user-friendly web applications, I specialize in React.js, Next.js, Node.js, Express.js, and MongoDB. I also have experience working with REST APIs, authentication, SQL databases, and e-commerce solutions. I am continuously learning new technologies and improving my skills to build innovative, scalable, and high-quality digital solutions that deliver real value to clients and businesses.
+         Hi, I'm a passionate Full Stack Web Developer from Pakistan. I work with React.js, Next.js, Node.js, Express.js, and MongoDB to build responsive and user-friendly websites. I enjoy learning new technologies and creating simple, effective solutions for real-world problems.
+
 
         </p>
         <div data-aos="fade-up" className="flex mt-8 gap-2">
@@ -56,7 +57,7 @@ function Home() {
                   key={index}
                   target="_blank"
                   href={social.link}
-                  className="text-white hover:text-fuchsia-500 rounded-full glow p-2"
+                  className="text-gray-800 dark:text-white hover:text-fuchsia-500 rounded-full glow p-2"
                 >
                   <div className="text-[28px]">{social.icon}</div>
                 </a>

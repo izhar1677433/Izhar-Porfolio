@@ -12,6 +12,8 @@ import img11 from "../assets/title11.png";
 import img12 from "../assets/title12.png";
 import img13 from "../assets/title13.png";
 import img14 from "../assets/title14.png";
+import img15 from "../assets/title15.jpeg";
+import img16 from "../assets/title16.webp";
 
 const ProjectsList = [
   {
@@ -102,7 +104,19 @@ const ProjectsList = [
     title: "Catalyst",
     link: "	https://catalyst-two.vercel.app/",
     image: img14,
-  }
+  },
+  {
+    id: 15,
+    title: "Fixit",
+    link: "https://www.fixitapp.us/",
+    image: img15,
+  },
+  {
+    id: 16,
+    title: "West London Pharmacy",
+    link: "https://westlondonpharmacy.com/",
+    image: img16,
+  },
 ];
 
 export default ProjectsList;

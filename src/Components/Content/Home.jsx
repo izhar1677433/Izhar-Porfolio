@@ -45,11 +45,8 @@ function Home() {
           <span className="text-fuchsi-500">My Portfolio Website</span>
         </h1>
         <p data-aos="fade-left">
-          Hi, I'm a dedicated web developer based in Rajasthan, India. Drawing
-          from a foundation in cloud computing and proficient knowledge of AWS
-          services, I am constantly expanding my expertise in web development.
-          With a diverse skill set, I aim to contribute innovatively to every
-          project.
+         Hi, I'm a passionate Full Stack Web Developer based in Pakistan. With a strong foundation in modern web technologies and hands-on experience in building responsive, dynamic, and user-friendly web applications, I specialize in React.js, Next.js, Node.js, Express.js, and MongoDB. I also have experience working with REST APIs, authentication, SQL databases, and e-commerce solutions. I am continuously learning new technologies and improving my skills to build innovative, scalable, and high-quality digital solutions that deliver real value to clients and businesses.
+
         </p>
         <div data-aos="fade-up" className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
